@@ -1,0 +1,58 @@
+/* DetailsStyles.css */
+.Hierarchy-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  height: 100vh;
+}
+
+.Hierarchy-content {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+}
+
+.details-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.details label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555;
+  font-weight: bold;
+}
+
+.details input, .details select {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.details input:focus, .details select:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+.details select {
+  background-color: #e2d9d9b7;
+}
+
+.details-section p {
+  font-size: 14px;
+  color: #007BFF;
+  margin-top: 10px;
+}

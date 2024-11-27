@@ -1,0 +1,61 @@
+.view-letter-container {
+  padding: 20px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.iframe-container {
+  width: 48%;
+  height: 100vh;
+  border: 1px solid black;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.remarks-container {
+  width: 48%;
+  height: 100vh;
+  border: 1px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.designations-container {
+  padding: 10px;
+}
+
+.designation-item {
+  margin-bottom: 10px;
+}
+
+.remarks-form {
+  margin-top: 10px;
+}
+
+.remark-container {
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.remark-display {
+  margin-bottom: 10px;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
